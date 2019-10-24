@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #cccccc;
+}
+
+h1, h2 {
+    color: blue;
+    font-weight: bold;
+
+}
+
+h1 {
+    font-size: 4.0em;
+}
+
+ul, ol {
+
+    font-size: 0.8em;
+    border: 5px solid red;
+    width:fit-content;
+    text-indent: 5em;
+
+}
+li {
+    color: darkgrey;
+}
+
+p{
+    text-indent: 5em;
+}
+
+figcaption {
+    font-size: 10px;
+    font-weight: bold;
+}
+p.copyright_notice {
+    font-size: 0.8em;
+}
+#special {
+    font-size: 0.8em;
+    color: yellowgreen;
+    font-style: italic;
+    border-left: 2px solid black;
+    margin-left: 40px;
+    padding-left: 10px;
+}
+.code{
+    background-color: white;
+    border: none;
+    border-radius: unset;
+}

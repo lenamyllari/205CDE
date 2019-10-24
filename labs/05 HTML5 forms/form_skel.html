@@ -15,37 +15,34 @@
 				Name: <input type="text" name="studentname"/>
 			</div>
 			<div>
-				Student id: <input type="text" name="id"  />
+				Student id: <input type="text" name="id" pattern="\d{7}"/>
 			</div>
 			<div>
-				Email:
-				<!--
-				Make an input named "email"
-				-->
+				Email: <input type="email" name="email"/>
+
 			</div>
 			<div>
-				Assignment:
-				<!--
-				Make an input named "assignment"
-				-->
-				
+				Assignment:<input name="assigment"/>
+
 			</div>
 
 			<div>
-				Code:
+				Code: <input type="text" name="code" />
 				<!--
 				Make an input named "code" which is a text area to put student's code into.
 				-->
 				
 			</div>
 			<div>
-				Cheat:
+				Cheat:<input type="checkbox" name="cheat"/>
 			<!--
 				Make an input named "cheat" which is a check box the student must check.
 			-->
 			</div>
 			<div>
-				Pay:
+				Pay:<input type="radio" name="payment"  value="Visa" checked>Visa<br>
+				<input type="radio" name="payment"  value="paypal" checked>Paypal<br>
+				<input type="radio" name="payment"  value="Mastercard" checked>Mastercard<br>
 			<!--
 				Make an input named "payment" which is a radio box with possible values of visa, paypal, mastercard
 			-->

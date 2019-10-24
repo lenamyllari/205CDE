@@ -1,0 +1,23 @@
+span.bold, caption {
+    font-weight: bold;
+}
+
+caption, .uppercase{
+    text-transform: uppercase;
+}
+
+.otsikot{
+    background-color: red;
+}
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+TD, TH {
+    border: 3px solid black;
+}
+
+tr:nth-child(even){
+    background-color: darkgrey;
+}
